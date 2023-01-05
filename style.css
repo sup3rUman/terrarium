@@ -32,6 +32,11 @@ h1 {
 	height: 13%;
 	left: -10px;
 }
+#page{
+    display: grid;
+    grid-template-rows: 1fr 3fr 1fr;
+
+}
 
 .plant {
 	position: absolute;
@@ -78,7 +83,7 @@ h1 {
 	height: 5%;
 	background: #3a241d;
 	position: absolute;
-	border-radius: 0 0 4rem 4rem;
+	border-radius: 0 0 3rem 3rem;
 	bottom: 1%;
 	left: 20%;
 	opacity: 0.7;
@@ -88,18 +93,24 @@ h1 {
 .jar-glossy-long {
     height: 80px;
     width: 20px;
-    background-color: rgb(70, 97, 105);
+	background: #f0f5f4;
     border-radius: 1rem;
     margin-top: 15px;
     margin-left: 15px;
     margin-bottom: 15px;
+    display: flex;
+    position: absolute;
+    bottom: 100px;
 }
 .jar-glossy-short {
     height: 30px;
     width: 20px;
-    background-color: rgb(70, 101, 105);
+	background: #f0f5f4;
     border-radius: 1rem;
-    margin-top: ;
-    margin-left: 5px;
-    
+    margin-top: 20px;
+    margin-left: 5px;  
+    display: flex;
+    position: absolute;
+    bottom: 220px;
+    left: 10px;
 }
